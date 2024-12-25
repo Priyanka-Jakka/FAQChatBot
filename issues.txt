@@ -1,0 +1,7 @@
+1)pip install -U sentence-transformers==2.2.2
+2)pip install InstructorEmbedding 
+3)encoding='cp1252' added this parameter in csvloader
+4)pip install langchain_community
+5)need not put versions in streamlit and protobuf in req.txt 
+6)vectordb=FAISS.load_local(vectordb_file_path,instructor_embeddings,allow_dangerous_deserialization=True) ADDED LAST ARGUMENT
+7)Most of the imports are updated
